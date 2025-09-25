@@ -113,13 +113,15 @@ font-size: 20px;
 border-radius: 16px;
 }
 .tablicaa{
-color: aliceblue; order:1;background: linear-gradient(#8517ff,#d40be7);
-padding: 0.5rem;}
+    width:80%;
+color: aliceblue; order:1;
+background: linear-gradient(#8517ff,#d40be7);
+padding: 1rem;}
 table{
     /*border-collapse: separate;*/
     border-spacing: 5px ;
-font-size: 25px;
-width: 100%;
+font-size: 20px;
+width: 80%;
 }
 th, td{
 padding: 10px;}
