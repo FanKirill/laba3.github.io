@@ -80,7 +80,7 @@ margin-bottom: 1rem;
 
 }
 main{
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 margin-top: 100px;
 display: flex ;
@@ -181,5 +181,15 @@ padding: 1.5rem;}
     color:rgb(255, 255, 255);
 font-size: 25px; margin-bottom: 20px;
 order:3;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+margin-top: 100px;
+display: flex ;
+flex-direction: column;
+text-align: center;
+list-style-position: inside;
+gap:2rem;
 }
 }
