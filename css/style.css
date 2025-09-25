@@ -116,12 +116,18 @@ border-radius: 16px;
     width:80%;
 color: aliceblue; order:1;
 background: linear-gradient(#8517ff,#d40be7);
-padding: 1rem;}
+padding: 1rem;    
+border-spacing: 5px ;
+font-size: 20px;}
 table{
     /*border-collapse: separate;*/
-    border-spacing: 5px ;
-font-size: 20px;
-width: 80%;
+width:80%;
+color: aliceblue; order:1;
+background: linear-gradient(#8517ff,#d40be7);
+padding: 1rem;    
+border-spacing: 5px ;
+font-size: 10px;
+
 }
 th, td{
 padding: 10px;}
@@ -176,8 +182,17 @@ color: aliceblue; order:2;
     order:1;
 }
 .tablicaa{
-color: aliceblue; order:2;background: linear-gradient(#8517ff,#d40be7);
-padding: 1.5rem;}
+ order:2;}
+table{
+    /*border-collapse: separate;*/
+width:80%;
+color: aliceblue; order:1;
+background: linear-gradient(#8517ff,#d40be7);
+padding: 1rem;    
+border-spacing: 5px ;
+font-size: 20px;
+
+}
 .Form2{
     background: linear-gradient(#8517ff,#16e6ca);
     color:rgb(255, 255, 255);
