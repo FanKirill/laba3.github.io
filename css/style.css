@@ -91,7 +91,8 @@ gap:2rem;
 }
 body{
 background: linear-gradient(#1682e6,#1102e4);
-font-family: "Montserrat", sans-serif;
+font-family: "Montserrat", sans-serif; width: 100%;
+overflow-x: hidden;
 }
 .no-bullet {
     list-style-type: none; /* Убираем маркировку */
@@ -154,7 +155,7 @@ padding-bottom: 120px ;}
 
 
 
-@media (min-device-width: 768px){
+/*@media (min-device-width: 768px){
 .tablicaa{
 color: aliceblue; order:2;
 }
@@ -183,7 +184,7 @@ color: aliceblue; order:2;
  order:2;
 }
 table{
-    /*border-collapse: separate;*/
+    /*border-collapse: separate;
 width:100%;
 color: aliceblue; order:1;
 background: linear-gradient(#8517ff,#d40be7);
@@ -208,4 +209,4 @@ text-align: center;
 list-style-position: inside;
 gap:2rem;
 }
-}
+}*/
