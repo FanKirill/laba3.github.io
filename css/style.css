@@ -148,6 +148,7 @@ padding-bottom: 120px ;}
     padding:40px;
     font-family: "Montserrat", sans-serif;
     color: aliceblue;
+    
   
 }
 
@@ -155,7 +156,7 @@ padding-bottom: 120px ;}
 
 
 
-/*@media (min-device-width: 768px){
+@media (min-device-width: 768px){
 .tablicaa{
 color: aliceblue; order:2;
 }
@@ -184,7 +185,7 @@ color: aliceblue; order:2;
  order:2;
 }
 table{
-    /*border-collapse: separate;
+    /*border-collapse: separate;*/
 width:100%;
 color: aliceblue; order:1;
 background: linear-gradient(#8517ff,#d40be7);
@@ -209,4 +210,4 @@ text-align: center;
 list-style-position: inside;
 gap:2rem;
 }
-}*/
+}
