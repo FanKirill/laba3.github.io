@@ -118,7 +118,7 @@ color: aliceblue; order:1;
 background: linear-gradient(#8517ff,#d40be7);
 padding: 1rem;    
 border-spacing: 5px ;
-font-size: 20px;}
+}
 table{
     /*border-collapse: separate;*/
 width:80%;
