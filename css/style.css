@@ -116,10 +116,11 @@ border-radius: 16px;
     width:100%;
 color: aliceblue; order:1;
 border-spacing: 5px ;
+background: linear-gradient(#8517ff,#d40be7);
 }
 table{
     /*border-collapse: separate;*/
-background: linear-gradient(#8517ff,#d40be7);
+
     width:100%;
 color: aliceblue; order:1;    
 border-spacing: 2px ;
