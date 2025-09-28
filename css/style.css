@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    *{margin: 0 ;
+*{
+    margin: 0 ;
     padding: 0; 
 }
 header { 
@@ -30,9 +31,7 @@ margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-      text-align: center;
-      
-    
+    text-align: center;
 }
 .headertable a{
     font-size: 29px;
@@ -55,7 +54,8 @@ margin-bottom: 1rem;
     }
 .Linkssize{
     background: linear-gradient(#8517ff,#16e6ca);
-    order:2
+    order:2;
+    margin-bottom: 50px;
 }
 .Linkssize li{
     padding: 10px;
@@ -80,20 +80,19 @@ margin-bottom: 1rem;
 
 }
 main{
-    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    /* width: 60rem; */
     margin: 0 auto;
-margin-top: 100px;
-display: flex ;
-flex-direction: column;
-text-align: center;
-list-style-position: inside;
-gap:2rem;
+    margin-top: 100px;
 }
+
 body{
 background: linear-gradient(#1682e6,#1102e4);
-font-family: "Montserrat", sans-serif; width: 100%;
-overflow-x: hidden;
+font-family: "Montserrat", sans-serif;
 }
+
+
 .no-bullet {
     list-style-type: none; /* Убираем маркировку */
 }
@@ -114,19 +113,20 @@ font-size: 20px;
 border-radius: 16px;
 }
 .tablicaa{
-    width:100%;
+    /* width:100%; */
 color: aliceblue; order:1;
 border-spacing: 5px ;
 background: linear-gradient(#8517ff,#d40be7);
+margin-bottom: 50px;
 }
 table{
     /*border-collapse: separate;*/
 
     width:100%;
-color: aliceblue; order:1;    
-border-spacing: 2px ;
-font-size: 10px;
-
+    color: aliceblue; order:1;    
+    border-spacing: 2px ;
+    font-size: 10px;
+    margin: auto;
 }
 th, td{
 padding: 2px;}
@@ -151,11 +151,6 @@ padding-bottom: 120px ;}
     
   
 }
-
-
-
-
-
 @media (min-device-width: 768px){
 .tablicaa{
 color: aliceblue; order:2;
@@ -211,3 +206,11 @@ list-style-position: inside;
 gap:2rem;
 }
 }
+
+
+
+
+
+
+
+
