@@ -152,6 +152,11 @@ padding-bottom: 120px ;}
   
 }
 @media (min-device-width: 768px){
+.container{
+    display:flex;
+    text-direction:row;
+}
+    
 .tablicaa{
 color: aliceblue; order:2;
 }
